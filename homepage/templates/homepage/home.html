@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" type-"text/css" href="{% static 'css/styles.css' %}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+            color: #33333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2{
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .section h2{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .section p, section ul{
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .section ul{
+            list-style-type:disc;
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 8px;
+            font-size: 16px;
+            color: #333333;
+        }
+        .section ul li a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Janusha Nampally</h1>
+        <p>Email: nampallyjanusha@gmail.com | Phone: (+91) 9652839760 | Location: Hyderabad</p>
+        <div class ="profile-links">
+            <a href="https://www.codechef.com/users/janusha_24" target="_blank">Codechef</a> |
+            <a href="https://github.com/JanushaNampally" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/nampally-janusha-b39a512a6/" target="_target">LinkedIn</a>
+        <div class="section">
+            <h2>Profile</h2>
+                <ul>
+                    <li><strong>Hi! I'm Janusha Nampally</strong> - and 18-year-old BTech student in my second year.</li>
+                    <li>Studying technology, data science and AI, focused on building a strong foundation in coding, techincal knowledge.</li>
+                    <li>Goal-oriented with asprirations to transform my ideas into impactful projectsand eventually launch my own startup.</li>
+                    <li>Passionate about using technology to create positive change and contribute to society through innovative solutions.</li>
+                    <li>Driven by values of hard work, resilience, and a commitment to learning from scratch to achieve my dreams<li>
+                 </ul>
+        </div>
+
+        <div class = "section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Python, Django</li>
+                <li>Web development: HTML</li>
+                <li>Problem-solving, critical-thinking and communication</li>
+            </ul>
+        </div>
+
+        <div class = "section">
+            <h2>Education</h2>
+            <p><strong>BTech</strong> - Koneru Lakshmaiah University(2027)</p>
+            <p><strong>Intermediate</strong> -Narayana Junior college(2023)</p>
+            <p><strong>10th class</strong> - Naagarjuna The nextgen school(2021)</p>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <p><strong>IEEE GRESS Participation Certificate</strong> - Recognized for active participation in technical events and activities organized by IEEE GRESS, showcasing interest and involvement in engineering and technology.</p>
+        
+            <p><strong>Eduskills AWS Cloud Practitioner</strong> - Completed the AWS Cloud Practitioner certification, demonstrating foundational knowledge in AWS Cloud, services, and cloud computing principles.</p>
+        
+            <p><strong>AWS Cloud Foundations</strong> - Successfully completed the AWS Cloud Foundations course, building a solid understanding of cloud infrastructure, deployment, and security best practices.</p>
+        </div>
+
+        <div class="section">
+            <h2>Hobbies</h2>
+            <ul> 
+                <li>Reading books of all kind geners</li>
+                <li>Dancing or watching someones dance</li>
+                <li>Building small programming projects</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Thank you</h2>    
+        </div>
+        
+    </div>
+</body>
+</html>
